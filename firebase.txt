@@ -1,0 +1,9 @@
+1. check node -v
+2. check npm -v
+3. npm install -g firebase-tools
+4. firebase login
+5. firebase init
+6. yes
+7. select project
+8. folder name  
+firebase deploy

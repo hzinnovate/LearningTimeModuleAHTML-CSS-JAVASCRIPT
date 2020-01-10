@@ -1,0 +1,42 @@
+import React , {Component} from 'react'
+import Countries from '../static/Countries.js'
+class practice extend Component{
+constructor(){
+this.state = {
+	limit: 15
+}
+}
+onScroll(e){
+
+	if(Math.floor(e.target.scrollHeight + e.target.scrollTop) === e.target.clientHeight){
+		this.loadMore()
+	}
+
+}
+
+loadMore(){
+	this.setState({limit: this.state.limit + 15})
+}
+
+render(){
+const {limit} = this.state
+let temp = [...Countries]
+	temp.length === limit
+
+return(
+	<div onScroll={e=>this.onScroll(e)} style={{height: '300px',overflow: 'scroll'}}>
+	<ul>
+	{temp.map((country)=>{
+	return	<li>country.name</li>
+	})}
+	</ul>
+	
+	</div>
+)
+
+}
+
+
+}
+
+export default Practice

@@ -1,0 +1,39 @@
+Ghous
+Batch 5 (Weekend Lab) 
+Git Commands
+1) download git from (git-scm.com)
+2) create github account from (github.com)
+3) create new github repositry 
+4) go to your project folder and open cmd/gitbash
+5) $ git init
+6) $ git config --global user.name "your github username"
+7) $ git config --global user.email "your github email"
+8) $ git status
+9) $ git add . or git add -A
+10) $ git remote add origin your github repo url
+11) $ git commit -m "your message"
+12) $ git push -u origin master
+13) unset from cmd => $ git config --global --unset user.name
+14) unset from cmd => $ git config --global --unset user.email
+
+Sir Ali Mughal
+Dear Batch 4.1 (Orange Section)
+Following are the best ways you can follow while working on git
+1) Install git from ( https://git-scm.com/ )
+2) Make repository in github.com
+3) Clone it in local system
+4) Make project which includes (index.html, app.js) etc
+5) Right Click to repo and click on gitBash here
+6) Use following commands when you are done with work
+........ a) git status
+........ b) git add -A
+........ c) git commit -m "your message"
+7) To upload it in remote
+........ d) git push -u origin master
+8) To clone any project
+........ e) git clone <Link>
+9) To get changes in local system from remote
+........ f) git pull
+10) If git asks you "who are you" then run following
+........ g) git config --global user.email "your email-id"
+........ h) git config --global user.name "your name"

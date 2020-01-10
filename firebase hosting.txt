@@ -1,0 +1,41 @@
+download and installed node.js from browser
+then open CMD 
+and right command node -v   === its print verjen off node;
+then right npm -v === its print verjen off npm;
+
+Create project;
+
+open firebase.google.com;
+signin with google account;
+Go to console;
+add project;
+
+CMD;
+open from windows bar;
+then write npm install -g firebase-tools;
+close CMD;
+
+go to your project folder;
+create one folder in these folder;
+and the name of folder is public;
+in public folder index.html is main file;
+
+run CMD from main folder out off public folder;
+write firebase login === its login firebase in these folder;
+permission === y;
+
+write firebase init;
+permision === y;
+select hosting with arrow keys and space then enter;
+now select your created project;
+by default public;
+permission y;
+overwrite permission === n;
+;;
+write firebase deploy;
+itx gave you hosting URL;
+;;;;;
+
+if i want some changes in hosting site;
+
+again open cmd in main folder and write firebase deploy to overwrite;

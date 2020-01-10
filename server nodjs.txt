@@ -1,0 +1,4 @@
+step:1 npm install -g http-server
+step:2 http-server -a localhost -p 8000 -c-1
+
+go to facebookdveloper
