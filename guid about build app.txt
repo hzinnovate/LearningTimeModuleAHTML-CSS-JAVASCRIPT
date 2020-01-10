@@ -1,0 +1,16 @@
+Over the air : expo publish your update with out user know 
+expo build android, but these also called expo publish its issue,
+solution:  expo publish --releaschannle <your channel name>
+or expo build android --releaschannle <your channel name>
+2 types of production,
+	Sign or Unsign;
+sign Apk created with Key Store ;
+unsign Apk created without key store & its just test mode not to upload un playstore
+KEY STORE:
+	
+Play Store releas 1st time your application in 3 days
+and update in 5 to 6 hour
+
+services for video and audio calling
+web RTC 
+agora 
